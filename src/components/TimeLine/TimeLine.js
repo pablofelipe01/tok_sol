@@ -43,7 +43,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>Time Line</SectionTitle>
+      <SectionTitle>Timeline</SectionTitle>
       <SectionText>
       "Give someone a dollar, and they will help you for a day. Give them tokenized ownership, and they will be on your side for a lifetime."
       </SectionText>

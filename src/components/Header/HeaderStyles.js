@@ -1,6 +1,14 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
 
+export const Img = styled.img`
+
+  width:80px;
+  height:80px;
+  object-fit: cover;
+  overflow: hidden;
+`
+
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
