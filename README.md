@@ -1,5 +1,5 @@
 ## Tok Sol
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+![Portfolio Website](https://i.imgur.com/l4zK1sa.png)
 
 # tok_sol
