@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100px;
-  height:100px;
+  width:20%;
+  height:20%;
   object-fit: cover;
   overflow: hidden;
   margin-top: 20px;
@@ -58,8 +58,7 @@ export const Hr = styled.hr`
 `;
 
 export const Intro = styled.div`
- 
- width: 170px;
+  width: 170px;
   margin: 0 auto;
   color: #dce3e7;
   font-family: 'Droid Serif', serif;

@@ -5,6 +5,7 @@ import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import Team from '../components/Team/Team';
+import Token from '../components/Token/Token';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
@@ -20,6 +21,7 @@ const Home = () => {
       <Timeline />
       <Acomplishments />
       <Team />
+      <Token />
     </Layout>
   );
 };

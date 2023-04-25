@@ -24,7 +24,7 @@ const Header = () =>  (
       </li>
       <li>
         <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+          <NavLink>Tech</NavLink>
         </Link>
       </li>        
       <li>
@@ -37,18 +37,30 @@ const Header = () =>  (
           <NavLink>Team</NavLink>
         </Link>
       </li>        
+      <li>
+        <Link href="#token">
+          <NavLink>Token</NavLink>
+        </Link>
+      </li>  
+      <a href="https://solscan.io/address/BeB6qDcgjEY9rHxyDAJS99cAuR3jszUeZU21HqumCtPd" rel='noopener' target='_blank'>   
+      <li>
+        <Link href="https://solscan.io/address/BeB6qDcgjEY9rHxyDAJS99cAuR3jszUeZU21HqumCtPd" rel='noopener' target='_blank'>
+          <NavLink>DAO</NavLink>
+        </Link>
+      </li> 
+      </a>       
     </Div2>
-      {/* <Div3>
-        <SocialIcons href="https://github.com/pablofelipe01">
+      <Div3>
+        <SocialIcons href="https://github.com/pablofelipe01" rel='noopener' target='_blank'>
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/pablo-f-acebedo/">
+        <SocialIcons href="https://www.linkedin.com/in/pablo-f-acebedo/" rel='noopener' target='_blank'>
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://twitter.com/tokensolutions">
+        <SocialIcons href="https://twitter.com/tokensolutions" rel='noopener' target='_blank'>
           <AiFillTwitterSquare size="3rem"/>
         </SocialIcons>
-      </Div3> */}
+      </Div3>
     </Container>
 );
 

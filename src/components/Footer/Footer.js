@@ -21,16 +21,18 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Democratizing Economy One Token At A Time</Slogan>
+          <Slogan> TOK the world, one SOL at a time </Slogan>
+          {/* <a href="https://sites.google.com/web3tokensolutions.io/fit-token/inicio"><Slogan> Privacy Policy </Slogan></a> */}
+          
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/pablofelipe01">
+          <SocialIcons href="https://github.com/pablofelipe01" rel='noopener' target='_blank'>
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/pablo-f-acebedo/">
+          <SocialIcons href="https://www.linkedin.com/company/web3tokensolutions/" rel='noopener' target='_blank'>
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://twitter.com/tokensolutions">
+          <SocialIcons href="https://twitter.com/tokensolutions" rel='noopener' target='_blank'>
             <AiFillTwitterSquare  size="3rem" />
           </SocialIcons>
         </SocialContainer>

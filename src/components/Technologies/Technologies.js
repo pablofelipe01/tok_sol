@@ -1,7 +1,7 @@
 import React from 'react';
-import {SiArchicad } from 'react-icons/si';
+import { BiAtom } from 'react-icons/bi';
 import { FaAnchor, FaSnapchatGhost } from "react-icons/fa";
-import { SiAirplayaudio } from "react-icons/si";
+import { FaWallet } from "react-icons/fa";
 
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
@@ -14,6 +14,7 @@ const Technologies = () =>  (
   Token creation is the process of creating and issuing digital tokens on a blockchain network. These tokens can be used for a variety of purposes, such as representing a digital asset, a utility within a decentralized application, or as a form of currency.
   </SectionText>
   <List>
+    <a href="https://solana.com/" rel='noopener' target='_blank' >
     <ListItem>
       <picture>
         <FaAnchor size="3rem" />
@@ -21,14 +22,18 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle>Framework</ListTitle>
         <ListParagraph>
-          Anchor <br />
+          Anchor - Solana <br />
           For quickly building secure Solana programs.
         </ListParagraph>
       </ListContainer>
+   
     </ListItem>
+    </a>
+
+    <a href="https://phantom.app/" rel='noopener' target='_blank' >
     <ListItem>
       <picture>
-        <FaSnapchatGhost size="3rem" />
+        <FaWallet size="3rem" />
       </picture>
       <ListContainer>
         <ListTitle>Wallet</ListTitle>
@@ -38,19 +43,22 @@ const Technologies = () =>  (
         </ListParagraph>
       </ListContainer>
     </ListItem>
+    </a>
+
+    <a href="https://www.academia.edu/95690669/Bidirectional_Cryptographic_Tokens" rel='noopener' target='_blank' >
     <ListItem>
       <picture>
-        <SiArchicad size="3rem" />
+        <BiAtom size="3rem" />
       </picture>
       <ListContainer>
-        <ListTitle>AMM</ListTitle>
+        <ListTitle>BTM- White Paper</ListTitle>
         <ListParagraph>
-        Liquidity Bootstrapping <br />
-        Curve - LBC
+        Bidirectional Tokenization Model <br />
+        Curve - LBC <br /> Click to visit our White Paper
         </ListParagraph>
       </ListContainer>
     </ListItem>
-   
+    </a>
   </List>
   <SectionDivider colorAlt />
 </Section>
