@@ -1,7 +1,25 @@
 export const projects = [
   {
+    title: 'Talent Plus',
+    // description: "Creator",
+      image: 'https://i.imgur.com/h0OKRAj.png',
+      tags: ['Ts', 'Next', 'Vercel', 'Node', 'Solana'],
+    // visit: 'https://github.com/pablofelipe01/token-camphill-agualinda',
+    source: 'https://talent-plus-ashen.vercel.app/',
+    id: 0,
+  },
+  {
+    title: 'Agualinda',
+    // description: "NoN Profit",
+      image: 'https://i.imgur.com/qxPo8Tm.png',
+      tags: ['Ts', 'Next', 'Vercel', 'Node', 'Solana'],
+    // visit: 'https://github.com/pablofelipe01/token-camphill-agualinda',
+    source: 'https://camphillagualinda.com/token',
+    id: 0,
+  },
+  {
     title: 'Reef Token',
-    description: "Environment Industry",
+    // description: "Environment Industry",
       image: 'https://i.imgur.com/kKSMt4I.png',
       tags: ['Solana', 'Next', 'Vercel', 'Node'],
     // visit: 'https://github.com/pablofelipe01/reef-swap',
@@ -10,7 +28,7 @@ export const projects = [
   },
   {
     title: 'Sports Token',
-    description: "Sports Industry",
+    // description: "Sports Industry",
       image: 'https://i.imgur.com/8bMGbm3.png',
       tags: ['Solana', 'Next', 'Vercel', 'Node'],
     // visit: 'https://github.com/pablofelipe01/xpo_token',
@@ -19,16 +37,16 @@ export const projects = [
   },
   {
     title: 'Puerto Venus',
-    description: "Films Industry",
+    // description: "Films Industry",
       image: 'https://i.imgur.com/DkP4r83.png',
       tags: ['Solana', 'Next', 'Vercel', 'Node'],
     // visit: 'https://github.com/pablofelipe01/reef-swap',
-    source: 'https://reef-swap-form.vercel.app/',
+    source: 'https://venus-2-0.vercel.app/',
     id: 0,
   },
   {
     title: 'Azul Token',
-    description: "Marketing Industry",
+    // description: "Marketing Industry",
       image: 'https://i.imgur.com/LT6jWdT.png',
       tags: ['Solana', 'Next', 'Vercel', 'Node'],
     // visit: 'https://github.com/pablofelipe01/azul-swap-form',
@@ -37,25 +55,18 @@ export const projects = [
   },
   {
     title: 'Si Senor',
-    description: "NFTs Market Place",
+    // description: "NFTs Market Place",
       image: 'https://i.imgur.com/Ca8HbWt.png',
       tags: ['Solidity', 'Next', 'Vercel', 'Node', 'Matic'],
     // visit: 'https://github.com/pablofelipe01/nft_marketplace',
-    source: 'https://si-senor-market.vercel.app/',
+    source: 'https://www.sisenor.io/',
     id: 0,
   },
-  {
-    title: 'Camphill Agualinda',
-    description: "NoN Profit",
-      image: 'https://i.imgur.com/qxPo8Tm.png',
-      tags: ['Ts', 'Next', 'Vercel', 'Node', 'Solana'],
-    // visit: 'https://github.com/pablofelipe01/token-camphill-agualinda',
-    source: 'https://token-camphill-agualinda.vercel.app/',
-    id: 0,
-  },
+ 
+ 
   {
     title: 'Gordito Fit',
-    description: "Creator",
+    // description: "Creator",
       image: 'https://i.imgur.com/k9VZAhh.png',
       tags: ['Ts', 'Next', 'Vercel', 'Node', 'Solana'],
     // visit: 'https://github.com/pablofelipe01/token-camphill-agualinda',
@@ -67,7 +78,7 @@ export const projects = [
 export const team = [
   {
     title: 'Pablo',
-    description: "Web 3 & Math",
+    // description: "Web 3 & Math",
       image: 'https://i.imgur.com/YxQQfUg.png',
       tags: ['Solana', 'Next', 'Vercel', 'Node'],
     source: 'https://www.linkedin.com/in/pablo-f-acebedo/',
@@ -76,7 +87,7 @@ export const team = [
   },
   {
     title: 'Angela',
-    description: "Sustainability",
+    // description: "Sustainability",
       image: 'https://i.imgur.com/eYl39K0.png',
       tags: ['Solana', 'Next', 'Vercel', 'Node'],
     source: 'https://www.linkedin.com/in/angela-maria-acosta-a99687a1/',
@@ -85,7 +96,7 @@ export const team = [
   },
   {
     title: 'Paolo',
-    description: "Metaverse",
+    // description: "Metaverse",
       image: 'https://i.imgur.com/fo8zY81.png',
       tags: ['Solana', 'Next', 'Vercel', 'Node'],
     source: 'https://www.linkedin.com/in/paolomiscia/',
@@ -103,7 +114,7 @@ export const team = [
   // },
   {
     title: 'Camilo',
-    description: "Media",
+    // description: "Media",
       image: 'https://i.imgur.com/usDVTPG.png',
       tags: ['Solidity', 'Next', 'Vercel', 'Node', 'Matic'],
     source: 'https://www.linkedin.com/in/camilo-zuluaga-45a068191/',
