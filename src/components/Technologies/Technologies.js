@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiAtom } from 'react-icons/bi';
+import { BiAtom, BiLogoProductHunt } from 'react-icons/bi';
 import { FaAnchor, FaSnapchatGhost } from "react-icons/fa";
 import { FaWallet } from "react-icons/fa";
 
@@ -59,8 +59,23 @@ const Technologies = () =>  (
       </ListContainer>
     </ListItem>
     </a>
+    <a href="https://www.pokoapp.xyz/" rel='noopener' target='_blank' >
+    <ListItem>
+      <picture>
+        <BiLogoProductHunt size="3rem" />
+      {/* <img src="https://i.imgur.com/t0576WV.png" alt="poko" /> */}
+      </picture>
+      <ListContainer>
+        <ListTitle>poko</ListTitle>
+        <ListParagraph>
+        Offramp with 0% fees with a  <br />
+        self-issued Mastercard
+        </ListParagraph>
+      </ListContainer>
+    </ListItem>
+    </a>
   </List>
-  <SectionDivider colorAlt />
+  {/* <SectionDivider colorAlt /> */}
 </Section>
 );
 

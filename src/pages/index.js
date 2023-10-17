@@ -6,8 +6,10 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import Team from '../components/Team/Team';
 import Token from '../components/Token/Token';
+import Nft from '../components/NFT/Nft';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import Facts from '../components/Facts/Facts';
 
 const Home = () => {
   return (
@@ -16,12 +18,14 @@ const Home = () => {
         <Hero />
         <BgAnimation />
       </Section>
-      <Projects />
+      <Facts />
       <Technologies />
+        <Nft />
+      <Projects />
       <Timeline />
       <Acomplishments />
       <Team />
-      <Token />
+      {/* <Token /> */}
     </Layout>
   );
 };

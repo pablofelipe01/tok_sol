@@ -9,15 +9,18 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-        Unleash the Power of <br />
-        Blockchain Technology 🚀
+        From Volatility to Stability,
+         <br />
+         Bidirectional Tokenization Model BTM.
 
         </SectionTitle>
         <SectionText>
-        We are a leading provider of innovative blockchain-based solutions for businesses and organizations. Our team of experts is dedicated to helping you leverage the power of blockchain technology to streamline your operations, improve efficiency, and drive growth.
+        Unveils a transformative approach to cryptocurrency. BTMs are brand-aligned assets that use a unique mathematical model to provide stable prices and continuous liquidity. This innovative model eliminates the risks of traditional crypto exchanges, offering a more reliable, bidirectional trading environment that empowers both value creators and their communities.
         </SectionText>
        
-        <Button onClick={() => window.location = 'https://72vczsos578.typeform.com/to/hWS7O6F1' } >Contact</Button>
+        <a href="https://www.youtube.com/watch?v=QVR21VWNUk0m" target="_blank" rel="noopener noreferrer">
+          <Button>Video</Button>
+        </a>
       </LeftSection>
     </Section>
   </>

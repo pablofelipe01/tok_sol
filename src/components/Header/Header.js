@@ -38,15 +38,15 @@ const Header = () =>  (
         </Link>
       </li>        
       <li>
-        <Link href="#token">
+        <Link href="#projects">
           <NavLink>Token</NavLink>
         </Link>
       </li>  
       <a href="https://solscan.io/address/BeB6qDcgjEY9rHxyDAJS99cAuR3jszUeZU21HqumCtPd" rel='noopener' target='_blank'>   
       <li>
-        <Link href="https://solscan.io/address/BeB6qDcgjEY9rHxyDAJS99cAuR3jszUeZU21HqumCtPd" rel='noopener' target='_blank'>
+        {/* <Link href="https://solscan.io/address/BeB6qDcgjEY9rHxyDAJS99cAuR3jszUeZU21HqumCtPd" rel='noopener' target='_blank'>
           <NavLink>DAO</NavLink>
-        </Link>
+        </Link> */}
       </li> 
       </a>       
     </Div2>
