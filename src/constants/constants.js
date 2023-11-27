@@ -106,7 +106,7 @@ export const projects = [
       image: 'https://i.imgur.com/d8t6gCN.png',
       tags: [ 'Solana Network'],
     // visit: 'https://github.com/pablofelipe01/token-camphill-agualinda',
-    source: 'https://www.mintsocialtoken.app/',
+    source: 'https://tok-sol-governance-token.vercel.app/',
     id: 0,
   },
 ];
